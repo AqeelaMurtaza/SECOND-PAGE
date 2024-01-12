@@ -1,0 +1,439 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+.maindiv {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 15px;
+    font-family: cursive;
+}
+
+ul li {
+    text-decoration: none;
+    list-style: none;
+}
+
+ul li a {
+    padding: 10px;
+    margin: 6px;
+    font-size: 22px;
+    font-family: cursive;
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    display: flex;
+    gap: 30px;
+}
+
+.buttonbar button {
+    font-size: 15px;
+    font-family: cursive;
+    margin-top: 0px;
+    padding: 15px 30px;
+    border: 2px solid seagreen;
+    color: white;
+    background: seagreen;
+    border-radius: 50px;
+
+}
+
+.div {
+
+    font-family: cursive;
+    background-image: url(./images/colton-duke-QRU0i5AqEJA-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+}
+
+.div h2 {
+    font-size: 70px;
+    padding: 50px 150px;
+    /* color: white; */
+}
+
+.div p {
+    font-size: 30px;
+    padding: 2px 150px 30px;
+    /* color: white; */
+}
+
+.div button {
+    font-size: 15px;
+    font-family: cursive;
+    padding: 15px 30px;
+    margin-left: 150px;
+    border: 2px solid seagreen;
+    color: white;
+    background: seagreen;
+    border-radius: 50px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding: 80px 2px;
+
+}
+
+.flexitem {
+    /* border: 2px solid black; */
+    margin: 6px;
+    height: 400px;
+    width: 400px;
+}
+
+.flexitem h4 {
+    font-size: 23px;
+    font-family: cursive;
+    text-align: center;
+    padding: 20px 90px;
+    color: seagreen;
+}
+
+.flexitem p {
+    font-family: cursive;
+    text-align: center;
+    padding: 31px 20px;
+
+}
+
+.block {
+    font-family: cursive;
+}
+
+.block h3 {
+    font-size: 30px;
+    text-align: center;
+    padding-top: 50px;
+    color: seagreen;
+}
+
+.block p {
+    font-size: 45px;
+    text-align: center;
+
+}
+
+.block1 {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 30px;
+    font-family: cursive;
+    color: white;
+}
+
+.section {
+    background-color: rgb(1, 1, 78);
+
+}
+
+.container1 {
+    /* border: 2px solid black; */
+    height: 350px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+
+.fitem h2 {
+    padding-top: 70px;
+    font-family: cursive;
+    font-size: 85px;
+    color: white;
+}
+
+.fitem p {
+    font-family: cursive;
+    font-size: 20px;
+    color: white;
+}
+
+.block2 {
+    font-family: cursive;
+    font-size: 30px;
+    text-align: center;
+    padding: 50px;
+    color: seagreen;
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.flexitem2 {
+    /* border: 2px solid black; */
+    height: 400px;
+    width: 650px;
+
+}
+
+.flexitem2 h4 {
+    font-size: 30px;
+    font-family: cursive;
+    text-align: center;
+    padding: 20px;
+    color: seagreen;
+
+}
+
+.flexitem2 p {
+    font-family: cursive;
+    padding: 31px 20px;
+    text-align: center;
+}
+
+.flexitem2 {
+    text-align: center;
+}
+
+.flexitem2 img {
+    padding-top: 50px;
+    height: 300px;
+}
+
+.container3 {
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.flexitem3 {
+    /* border: 2px solid black; */
+    height: 400px;
+    width: 650px;
+}
+
+.flexitem3 h4 {
+    font-size: 30px;
+    font-family: cursive;
+    text-align: center;
+    padding: 20px;
+    color: seagreen;
+}
+
+.container3 p {
+    font-family: cursive;
+    padding: 31px 20px;
+    text-align: center;
+}
+
+.flexitem3 {
+    text-align: center;
+}
+
+.flexitem3 img {
+    padding-top: 50px;
+    height: 320px;
+}
+
+.wrapper{
+    background: linear-gradient(90deg, #880fc4 0%, #1d99f2 100% );
+    min-height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: cursive;
+    color: white;
+}
+.wrapper h1{
+    font-size: 35px;
+    font-weight: 500;
+    margin: 50px 0;
+    text-align: center;
+}
+.wrapper h1{
+    font-size: 42px;
+    text-align: center;
+    font-weight: 500;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    margin: 0 auto;
+
+}
+.card{
+    width: 380px;
+    height: 250px;
+    border-radius: 15px;
+    margin: 7px;
+    padding: 20px 30px;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: 10px 20px 25px rgba(0, 0, 0,0.2);
+    transform: .5s;
+}
+.card img{
+    height: 90px;
+    width: 90px;
+    border: 2px solid white;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: 20px;
+}
+.card p{
+    font-size: 16px;
+    margin-top: 48px;
+    margin-bottom: 25px;
+}
+.card h3{
+    font-weight: 500;
+    margin-bottom: 4px;
+}
+.card h4{
+    color: #333;
+    font-weight: 400;
+    font-size: 16px;
+}
+.card i{
+    font-size: 60px;
+    position: absolute;
+    bottom: 20px;
+    right: 25px;
+    color: rgb(182, 178, 178);
+}
+.card:hover{
+    transform: scale(0.9);
+    color: #333;
+    background: #fff;
+    z-index: 10000;
+}
+.two{
+    font-family: cursive;
+}
+.two h3{
+    font-size: 23px;
+    padding-top: 20px;
+    padding-left: 70px;
+    color: seagreen;
+}
+.two h2{
+    font-size: 30px;
+    padding-left: 70px;
+    padding-top: 20px;
+    color: rgb(1, 1, 78) ;
+}
+.two p{
+    font-size: 20px;
+    padding-left: 70px;
+    padding-top:30px ;
+}
+
+.Mmain{
+    display: flex;
+    padding-top: 70px;
+    background-color: rgb(199, 197, 197);
+
+}
+.left-div{
+    /* border: 2px solid black; */
+    width: 700px;
+    height: 500px;
+}
+.fa-linkedin-in{
+    font-size: 30px;
+    padding-left: 70px;
+    padding-top: 20px;
+}
+.fa-envelope{
+    font-size: 30px;
+    padding-left: 20px;
+}
+.fa-whatsapp{
+    font-size: 30px;
+    padding-left: 20px;
+}
+
+.divone{
+    font-family: cursive;
+}
+.divone h3{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 50px;
+    color: seagreen;
+}
+.one{
+    font-size: 18px;
+    padding-top: px;
+    padding-left: 150px;
+    margin-top: 10px;
+    
+}
+.inputone{
+    display: flex;
+    justify-content: space-around;
+}
+input{
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid purple ;
+}
+.one:hover{
+    color:seagreen;
+}
+.submit{
+    font-size: 15px;
+    font-family: cursive;
+    padding: 15px 30px;
+    margin-left: 65px;
+    border: 2px solid seagreen;
+    color: white;
+    background: seagreen;
+    border-radius: 50px;
+}
+.fa-business-time{
+    font-size: 40px;
+    text-align: center;
+    padding-left: 120px;
+}
+.fa-receipt{
+    font-size: 40px;
+    text-align: center;
+    padding-left: 140px;
+}
+.fa-coins{
+    font-size: 40px;
+    text-align: center;
+    padding-left: 140px;
+}
+.fa-user{
+    font-size: 40px;
+    text-align: center;
+    padding-left: 120px;
+}
+.email{
+    padding-left: 70px;
+    margin-top: 20px;
+}
+
+
+
+.emailinput{
+    width: 470px;
+    border-color: red;
+}
+.textarea{
+    padding-left: 70px;
+    margin-top: 20px;
+}
+.textinput{
+    width: 470px;
+    padding-bottom: 70px;
+}
+button{
+    margin-top: 20px;
+}
+
