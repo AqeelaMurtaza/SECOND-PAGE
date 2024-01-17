@@ -87,7 +87,18 @@ ul {
     height: 400px;
     width: 400px;
 }
-
+.fa-business-time{
+    margin-left: 20px;
+}
+.fa-receipt{
+    margin-left: 10px;
+}
+.fa-coins{
+    margin-left: 10px;
+}
+.fa-user{
+    margin-left: 25px;
+}
 .flexitem h4 {
     font-size: 23px;
     font-family: cursive;
@@ -435,5 +446,6 @@ input{
 }
 button{
     margin-top: 20px;
+    cursor: pointer;
 }
 
